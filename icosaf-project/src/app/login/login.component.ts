@@ -51,8 +51,8 @@ export class LoginComponent implements OnInit {
             // this.modalService.open(this.demoBasic);
           });*/
 
-      if (this.username.toString() === 'icosaf' && this.password.toString() === 'icosaf') {
-        this.router.navigate(['/IcosafHome', {}]);
+      if (this.username.toString() === 'dipretreat' && this.password.toString() === 'dipretreat') {
+        this.router.navigate(['/DiPreTreatHome', {}]);
       } else {
         // this.unauthorized = true;
         this.notifier.notify('error', 'Error:  Invalid username or password');
@@ -62,7 +62,7 @@ export class LoginComponent implements OnInit {
 
   checkAccess() {
     if ('success' === this.responseLogin.login) {
-      this.router.navigate(['/IcosafHome', {}]);
+      this.router.navigate(['/DiPreTreatHome', {}]);
     } else {
       this.unauthorized = true;
     }

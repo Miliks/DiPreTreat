@@ -16,7 +16,7 @@ const routes: Routes = [
   { path: 'Home', component: HomeComponent},
   { path: 'WmsGet', component: WmsGetDataComponent},
   { path: 'WmsInsert', component: WmsInsertDataComponent},
-  { path: 'IcosafHome', component: IcosafMenuComponent},
+  { path: 'DiPreTreatHome', component: IcosafMenuComponent},
   /*{ path: 'LoginDTWIN', component: LoginDTWINComponent},
   { path: 'Tracking', component: TrackingComponent},
   { path: 'TrackingList', component: TrackingListComponent},

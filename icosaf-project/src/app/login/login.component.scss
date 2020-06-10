@@ -5,7 +5,7 @@ html {
   margin: 50px auto;
   text-align: center;
   display: flex;
-}
+  }
 
 .form {
   background: #fafafa;
@@ -19,6 +19,7 @@ html {
   margin: auto;
   text-align: center;
   position: relative;
+
 }
 
 .form-control, .btn {
@@ -63,6 +64,19 @@ html {
   color: white;
   background-color: red;
 }
+
+
+
+.inventory-body {
+ position: fixed; 
+  top: 0; 
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url('/assets/background.png')
+}
+
+
 
 
 
